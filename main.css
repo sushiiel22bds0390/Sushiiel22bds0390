@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    background-color: wheat;
+}
+#head{
+
+    background-color: rgb(17, 0, 128);
+    height: 50px;
+
+}
+#img{
+    display: inline;
+   /* height: 30px; */
+   width: 170px;
+    float: left;
+    padding: 8px 43px;
+}
+#links{
+    font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    color: white;
+}
+#team{
+    margin-top: 200px;
+    margin-left: 70px;
+    color: rgb(17, 0, 128);
+    font-size: 80px;
+    font-family: 'Poppins';
+    margin-bottom: 0px;
+    z-index: 5;
+}
+.bouncing-text {
+    position: relative;
+    display: flex;
+    font-size: 70px;
+    font-family: arial black; 
+    margin-left: 70px;
+    z-index: 0;
+    /* height: 90vh; */
+  }
+  .r1, .o, .c, .k, .s1, .t, .a , .r2 ,.s2{
+    color: #4cc9f0;
+    text-shadow: 0 3px #4361ee, 0 5px #4361ee, 0 7px #4361ee;
+  }
+  @keyframes bounce {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-55px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+}
+
+.r1 {
+animation: bounce 1s ease infinite;
+}
+
+.o {
+animation: bounce 1s ease infinite .1s;
+}
+
+.c {
+animation: bounce 1s ease infinite .2s;
+}
+.k {
+animation: bounce 1s ease infinite .3s;
+}
+.s1 {
+animation: bounce 1s ease infinite .4s;
+}
+.t {
+animation: bounce 1s ease infinite .5s;
+}
+.a {
+animation: bounce 1s ease infinite .6s;
+}
+.r2 {
+animation: bounce 1s ease infinite .7s;
+}
+.s2 {
+animation: bounce 1s ease infinite .8s; 
+}
+.box1{
+    border: 1px;
+    background-color: rgba(105, 201, 237, 0.787);
+    margin: 100px;
+    height: 100px;
+    padding-top: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+  
+}
+#body{
+    background-color:wheat;
+    font-family: 'Poppins', sans-serif;
+}
+.main1{
+    display: flex;
+    padding-left: 10%;
+}
+.about1{
+    text-align: center;
+    display: block;
+    background-color:rgb(17, 0, 128);
+    height: 40px;
+    color:white;
+    font-size: 20px;
+    margin: 0;
+    padding-top: 15px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.pjt1{
+    border-radius: 10px;
+    height: 40px;
+    width: 30%;
+    padding: 8px;
+    margin-left: 35%;
+    background-color:red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.content1 {
+    border: 1px;
+    background-color:rgba(105, 201, 237, 0.787);
+    margin-left: 100px;
+    margin-top: 50px;
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    text-align: center;
+    border-radius: 20px;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+
+  }
+  #prodes{
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 700;
+  }
+.input2{
+    margin: 20px;
+    
+}
+.submit2{
+    border-radius: 10px;
+}
+.form2{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.main2{
+    border: 1px solid;
+    padding-top: 0%;
+    align-items: center;
+    border-radius: 20px;
+    background-color: antiquewhite;
+}
+.top2{
+    text-align: center;
+    background-color: rgb(17, 0, 128);
+    padding: 8px;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: rgb(248, 155, 170);
+    color: white;
+  }
+  
+  .main3{
+    /* margin-top: 200px ; */
+   
+   display: flex;
+   gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
